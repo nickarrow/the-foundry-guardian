@@ -209,7 +209,7 @@ jobs:
           COMPROMISED_URL="$REPO_URL/commit/$CURRENT"
           
           # Create issue body
-          cat > /tmp/issue_body.md << EOF
+          cat > /tmp/issue_body.md << 'EOF'
 ## 🚨 Guardian Attack Detected
 
 **Detection Time:** $TIMESTAMP  
@@ -259,6 +259,16 @@ $FILES
 
 **Guardian Repository:** https://github.com/nickarrow/the-foundry-guardian
 EOF
+          
+          # Substitute variables in the issue body
+          sed -i "s/\$TIMESTAMP/$TIMESTAMP/g" /tmp/issue_body.md
+          sed -i "s/\$LAST_GOOD_SHORT/$LAST_GOOD_SHORT/g" /tmp/issue_body.md
+          sed -i "s/\$CURRENT_SHORT/$CURRENT_SHORT/g" /tmp/issue_body.md
+          sed -i "s|\$LAST_GOOD_URL|$LAST_GOOD_URL|g" /tmp/issue_body.md
+          sed -i "s|\$COMPROMISED_URL|$COMPROMISED_URL|g" /tmp/issue_body.md
+          sed -i "s/\$ATTACKERS/$ATTACKERS/g" /tmp/issue_body.md
+          sed -i "s/\$COMMITS/$COMMITS/g" /tmp/issue_body.md
+          sed -i "s/\$FILES/$FILES/g" /tmp/issue_body.md
           
           # Create the issue
           gh issue create \
