@@ -208,77 +208,58 @@ jobs:
           LAST_GOOD_URL="$REPO_URL/commit/$LAST_GOOD"
           COMPROMISED_URL="$REPO_URL/commit/$CURRENT"
           
-          # Create issue body
-          cat > /tmp/issue_body.md <<'ISSUE_EOF'
-## Guardian Attack Detected
+          # Create the issue with inline body
+          gh issue create \
+            --repo nickarrow/the-foundry \
+            --title "🚨 Guardian Alert: Attack Detected and Restored - $TIMESTAMP" \
+            --body "## 🚨 Guardian Attack Detected
 
-DETECTION_TIME_PLACEHOLDER
-STATUS_PLACEHOLDER
+**Detection Time:** $TIMESTAMP
+**Status:** ✅ Automatically restored by external Guardian
 
 ---
 
 ### Attack Details
 
-- LAST_GOOD_PLACEHOLDER
-- COMPROMISED_PLACEHOLDER
+- **Last Known Good Commit:** [\`$LAST_GOOD_SHORT\`]($LAST_GOOD_URL)
+- **Compromised Commit:** [\`$CURRENT_SHORT\`]($COMPROMISED_URL)
 
 ### Attackers (Commit Authors)
 
-ATTACKERS_PLACEHOLDER
+$ATTACKERS
 
 ### Malicious Commits
 
-COMMITS_PLACEHOLDER
+$COMMITS
 
 ### Files Affected (first 50)
 
-```
-FILES_PLACEHOLDER
-```
+\`\`\`
+$FILES
+\`\`\`
 
 ---
 
 ### Actions Taken by Guardian
 
-- Workflows restored from external guardian repository
-- All content restored to last known good state
-- Restoration committed to main branch
-- This issue created for admin review
+- ✅ Workflows restored from external guardian repository
+- ✅ All content restored to last known good state
+- ✅ Restoration committed to \`main\` branch
+- ✅ This issue created for admin review
 
 ### Recommended Actions
 
-1. Review the attackers list above - Identify malicious users
-2. Remove write access - Go to Settings → Collaborators and remove those users
-3. Check for compromised accounts - Verify if legitimate users accounts were hacked
-4. Monitor for repeat attacks - Watch for the same users attempting again
-5. Review GitHub audit log - Check for additional suspicious activity
+1. **Review the attackers list above** - Identify malicious users
+2. **Remove write access** - Go to Settings → Collaborators and remove those users
+3. **Check for compromised accounts** - Verify if legitimate users' accounts were hacked
+4. **Monitor for repeat attacks** - Watch for the same users attempting again
+5. **Review GitHub audit log** - Check for additional suspicious activity
 
 ---
 
-Note: This issue was automatically created by the external Guardian monitoring system. The repository has been restored and is secure.
+**Note:** This issue was automatically created by the external Guardian monitoring system. The repository has been restored and is secure.
 
-Guardian Repository: https://github.com/nickarrow/the-foundry-guardian
-ISSUE_EOF
-          
-          # Substitute variables in the issue body
-          sed -i "s|Guardian Attack Detected|🚨 Guardian Attack Detected|g" /tmp/issue_body.md
-          sed -i "s|DETECTION_TIME_PLACEHOLDER|**Detection Time:** $TIMESTAMP|g" /tmp/issue_body.md
-          sed -i "s|STATUS_PLACEHOLDER|**Status:** ✅ Automatically restored by external Guardian|g" /tmp/issue_body.md
-          sed -i "s|- Workflows restored|- ✅ Workflows restored|g" /tmp/issue_body.md
-          sed -i "s|- All content restored|- ✅ All content restored|g" /tmp/issue_body.md
-          sed -i "s|- Restoration committed|- ✅ Restoration committed|g" /tmp/issue_body.md
-          sed -i "s|- This issue created|- ✅ This issue created|g" /tmp/issue_body.md
-          sed -i "s|LAST_GOOD_PLACEHOLDER|**Last Known Good Commit:** [\\\`$LAST_GOOD_SHORT\\\`]($LAST_GOOD_URL)|g" /tmp/issue_body.md
-          sed -i "s|COMPROMISED_PLACEHOLDER|**Compromised Commit:** [\\\`$CURRENT_SHORT\\\`]($COMPROMISED_URL)|g" /tmp/issue_body.md
-          sed -i "s|ATTACKERS_PLACEHOLDER|$ATTACKERS|g" /tmp/issue_body.md
-          sed -i "s|COMMITS_PLACEHOLDER|$COMMITS|g" /tmp/issue_body.md
-          sed -i "s|FILES_PLACEHOLDER|$FILES|g" /tmp/issue_body.md
-          
-          # Create the issue
-          gh issue create \
-            --repo nickarrow/the-foundry \
-            --title "🚨 Guardian Alert: Attack Detected and Restored - $TIMESTAMP" \
-            --body-file /tmp/issue_body.md \
+**Guardian Repository:** https://github.com/nickarrow/the-foundry-guardian" \
             --label "security,guardian-alert" \
             --assignee "nickarrow"
           
