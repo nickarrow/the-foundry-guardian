@@ -183,87 +183,31 @@ jobs:
           
           echo "✅ Repository restored and pushed"
       
-      - name: Create attack log file
+      - name: Log attack details to workflow output
         if: env.NEEDS_RESTORE == 'true'
         run: |
-          cd guardian
-          
-          # Create logs directory if it doesn't exist
-          mkdir -p attack-logs
-          
-          # Generate log filename with timestamp
-          TIMESTAMP=$(date -u +"%Y-%m-%d_%H-%M-%S")
-          LOG_FILE="attack-logs/attack_${TIMESTAMP}.log"
-          
-          cd ../the-foundry
+          cd the-foundry
           
           LAST_GOOD=${{ env.LAST_GOOD_COMMIT }}
           CURRENT=${{ env.CURRENT_COMMIT }}
           
-          # Get attackers list
-          ATTACKERS=$(git log $LAST_GOOD..$CURRENT --format="%an <%ae>" | sort -u)
-          
-          # Get malicious commits
-          COMMITS=$(git log $LAST_GOOD..$CURRENT --oneline)
-          
-          # Get files affected
-          FILES=$(git diff --name-status $LAST_GOOD $CURRENT)
-          
-          # Create detailed log
-          {
-            echo "========================================"
-            echo "GUARDIAN ATTACK LOG"
-            echo "========================================"
-            echo ""
-            echo "Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-            echo "Detection: Automated Guardian scan from external repository"
-            echo ""
-            echo "ATTACK DETAILS:"
-            echo "---------------"
-            echo "Last Known Good Commit: $LAST_GOOD"
-            echo "Compromised Commit: $CURRENT"
-            echo ""
-            echo "Repository: https://github.com/nickarrow/the-foundry"
-            echo "Last Good URL: https://github.com/nickarrow/the-foundry/commit/$LAST_GOOD"
-            echo "Compromised URL: https://github.com/nickarrow/the-foundry/commit/$CURRENT"
-            echo ""
-            echo "ATTACKERS (commit authors since last good state):"
-            echo "--------------------------------------------------"
-            echo "$ATTACKERS"
-            echo ""
-            echo "MALICIOUS COMMITS:"
-            echo "------------------"
-            echo "$COMMITS"
-            echo ""
-            echo "FILES AFFECTED:"
-            echo "---------------"
-            echo "$FILES"
-            echo ""
-            echo "ACTIONS TAKEN:"
-            echo "--------------"
-            echo "- Workflows restored from guardian repository canonical versions"
-            echo "- All content restored to last known good state ($LAST_GOOD)"
-            echo "- Restoration committed to the-foundry main branch"
-            echo "- This log created in guardian repository"
-            echo ""
-            echo "RECOMMENDED ACTIONS:"
-            echo "--------------------"
-            echo "1. Review the attackers list above"
-            echo "2. Remove write access for malicious users (Settings → Collaborators)"
-            echo "3. Consider if accounts were compromised"
-            echo "4. Monitor for repeat attacks"
-            echo "5. Check GitHub audit log for additional context"
-            echo ""
-            echo "========================================"
-          } > "../guardian/$LOG_FILE"
-          
-          cd ../guardian
-          
-          # Commit the log to guardian repo
-          git config user.name "Guardian Bot"
-          git config user.email "guardian@the-foundry.bot"
-          git add "$LOG_FILE"
-          git commit -m "Guardian: Attack log - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-          git push origin main
-          
-          echo "✅ Attack logged to guardian repository: $LOG_FILE"
+          echo "========================================"
+          echo "GUARDIAN ATTACK DETECTED"
+          echo "========================================"
+          echo ""
+          echo "Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          echo "Last Known Good Commit: $LAST_GOOD"
+          echo "Compromised Commit: $CURRENT"
+          echo ""
+          echo "ATTACKERS:"
+          git log $LAST_GOOD..$CURRENT --format="%an <%ae>" | sort -u
+          echo ""
+          echo "MALICIOUS COMMITS:"
+          git log $LAST_GOOD..$CURRENT --oneline
+          echo ""
+          echo "FILES AFFECTED:"
+          git diff --name-status $LAST_GOOD $CURRENT | head -20
+          echo ""
+          echo "✅ Repository has been restored"
+          echo "✅ Check this workflow log for attack details"
+          echo "========================================"
