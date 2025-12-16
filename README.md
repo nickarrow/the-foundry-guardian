@@ -53,40 +53,6 @@ the-foundry-guardian/
 └── README.md                    # This file
 ```
 
-## Setup Instructions
-
-### 1. Create Personal Access Token (PAT)
-
-1. Go to GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens
-2. Click "Generate new token"
-3. Configure:
-   - **Token name**: `foundry-guardian-token`
-   - **Expiration**: 1 year (set reminder to rotate)
-   - **Repository access**: Only select repositories → `the-foundry`
-   - **Permissions**:
-     - **Contents**: Read and write
-     - **Issues**: Read and write
-     - **Metadata**: Read-only (auto-selected)
-4. Generate and copy the token
-
-### 2. Add Token as Secret
-
-1. Go to this repository → Settings → Secrets and variables → Actions
-2. Click "New repository secret"
-3. Name: `FOUNDRY_PAT`
-4. Value: Paste the token
-5. Click "Add secret"
-
-### 3. Verify Setup
-
-1. Go to Actions tab
-2. Click "Guardian - Monitor The Foundry"
-3. Click "Run workflow"
-4. Select `main` branch
-5. Click "Run workflow"
-
-Check the logs to ensure it runs successfully.
-
 ## Updating Canonical Workflows
 
 When you legitimately update the enforcement workflows in `the-foundry`:
