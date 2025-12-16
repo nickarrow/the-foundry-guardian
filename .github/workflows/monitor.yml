@@ -208,21 +208,19 @@ jobs:
           LAST_GOOD_URL="$REPO_URL/commit/$LAST_GOOD"
           COMPROMISED_URL="$REPO_URL/commit/$CURRENT"
           
-          # Create the issue with inline body
-          gh issue create \
-            --repo nickarrow/the-foundry \
-            --title "🚨 Guardian Alert: Attack Detected and Restored - $TIMESTAMP" \
-            --body "## 🚨 Guardian Attack Detected
+          # Create issue body
+          cat > /tmp/issue_body.md << 'ISSUE_EOF'
+## 🚨 Guardian Attack Detected
 
-**Detection Time:** $TIMESTAMP
+**Detection Time:** $TIMESTAMP  
 **Status:** ✅ Automatically restored by external Guardian
 
 ---
 
 ### Attack Details
 
-- **Last Known Good Commit:** [\`$LAST_GOOD_SHORT\`]($LAST_GOOD_URL)
-- **Compromised Commit:** [\`$CURRENT_SHORT\`]($COMPROMISED_URL)
+- **Last Known Good Commit:** [`$LAST_GOOD_SHORT`]($LAST_GOOD_URL)
+- **Compromised Commit:** [`$CURRENT_SHORT`]($COMPROMISED_URL)
 
 ### Attackers (Commit Authors)
 
@@ -234,9 +232,9 @@ $COMMITS
 
 ### Files Affected (first 50)
 
-\`\`\`
+```
 $FILES
-\`\`\`
+```
 
 ---
 
@@ -244,7 +242,7 @@ $FILES
 
 - ✅ Workflows restored from external guardian repository
 - ✅ All content restored to last known good state
-- ✅ Restoration committed to \`main\` branch
+- ✅ Restoration committed to `main` branch
 - ✅ This issue created for admin review
 
 ### Recommended Actions
@@ -259,7 +257,14 @@ $FILES
 
 **Note:** This issue was automatically created by the external Guardian monitoring system. The repository has been restored and is secure.
 
-**Guardian Repository:** https://github.com/nickarrow/the-foundry-guardian" \
+**Guardian Repository:** https://github.com/nickarrow/the-foundry-guardian
+ISSUE_EOF
+          
+          # Create the issue
+          gh issue create \
+            --repo nickarrow/the-foundry \
+            --title "🚨 Guardian Alert: Attack Detected and Restored - $TIMESTAMP" \
+            --body-file /tmp/issue_body.md \
             --label "security,guardian-alert" \
             --assignee "nickarrow"
           
