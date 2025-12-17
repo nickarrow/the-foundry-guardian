@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: nickarrow/the-foundry
-          token: ${{ secrets.FOUNDRY_PAT }}
+          token: ${{ secrets.FOUNDRY_GUARDIAN_TOKEN }}
           path: the-foundry
           fetch-depth: 0  # Full history for finding last good state
       
@@ -294,4 +294,4 @@ jobs:
             --label "security,guardian-alert" \
             --repo nickarrow/the-foundry
         env:
-          GH_TOKEN: ${{ secrets.FOUNDRY_PAT }}
+          GH_TOKEN: ${{ secrets.FOUNDRY_GUARDIAN_TOKEN }}
