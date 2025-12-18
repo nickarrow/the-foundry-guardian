@@ -8,6 +8,11 @@ files:
     created: '2025-12-17T17:57:36.677462+00:00'
     modified: '2025-12-17T17:58:45.606308+00:00'
     owner: nickarrow
+  .foundry/SPECIFICATION.md:
+    checksum: 4e1afe3cdc5b27a3e21baaf83930386278069de2cf90e2ed25c6cf0f94ab3640
+    created: '2025-12-18T20:54:13.298198+00:00'
+    modified: '2025-12-18T20:54:13.298198+00:00'
+    owner: nickarrow
   1. Welcome to The Foundry.md:
     checksum: 3b57dfcde3c2bcd2739f270ee6fb64b492506634d6f4cfa60efeae060c3234f0
     created: '2025-12-17T17:41:15.770246+00:00'
