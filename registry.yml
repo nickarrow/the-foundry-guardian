@@ -18,6 +18,11 @@ files:
     created: '2025-12-18T20:54:13.298198+00:00'
     modified: '2025-12-18T20:54:13.298198+00:00'
     owner: nickarrow
+  .foundry/test.md:
+    checksum: a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e
+    created: '2025-12-18T21:00:02.972819+00:00'
+    modified: '2025-12-18T21:01:08.906687+00:00'
+    owner: nickarrow
   1. Welcome to The Foundry.md:
     checksum: 3b57dfcde3c2bcd2739f270ee6fb64b492506634d6f4cfa60efeae060c3234f0
     created: '2025-12-17T17:41:15.770246+00:00'
@@ -142,9 +147,4 @@ files:
     checksum: 4a13d0202ee8724cd1c6649ef443e2c9de080d4e097632b820406705a676037f
     created: '2025-12-17T21:43:14.747150+00:00'
     modified: '2025-12-17T21:43:14.747150+00:00'
-    owner: nickarrow
-  test.md:
-    checksum: a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e
-    created: '2025-12-18T21:00:02.972819+00:00'
-    modified: '2025-12-18T21:00:02.972819+00:00'
     owner: nickarrow
