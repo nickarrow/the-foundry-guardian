@@ -49,9 +49,9 @@ files:
     modified: '2025-12-20T19:40:24.883324+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Characters/Barille Black.md:
-    checksum: 21b14ea13699fb58dbc02918b3a1a4a0ea496c9fc9d94668e4eac9a83f47932e
+    checksum: 9fee51f911344a516677b29a9746e035d018bb8b43fbe4a2ea96e1677def96da
     created: '2025-12-17T19:59:34.705988+00:00'
-    modified: '2025-12-21T20:47:26.780590+00:00'
+    modified: '2025-12-21T20:52:23.876315+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Characters/attachments/barille black profile.png:
     checksum: 283585c27eb05c9acdcc972e3aa9c21afa873a62f1bf4710905332bd34f1a746
@@ -79,9 +79,9 @@ files:
     modified: '2025-12-17T20:28:29.565713+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Journals/Barille 01 - Beginnings.md:
-    checksum: 65c5916beea34bad7aaa6d375f7e5fb2892ca61f6291f7f0febee62f09f3be62
+    checksum: 521c9aab7757d280f3219d3634ad669e00f56f3bdd0cb5ee9524f52ccbb22ae3
     created: '2025-12-17T20:18:04.220298+00:00'
-    modified: '2025-12-21T20:47:26.780708+00:00'
+    modified: '2025-12-21T20:52:23.876369+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Locations/Map - Devil's Chain.excalidraw.md:
     checksum: 8b76c0d503a57ebe68485915ff8bc0ae7ef40b27d18bc456b09c5ca836a22542
@@ -134,9 +134,14 @@ files:
     modified: '2025-12-20T20:00:26.080013+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Progress/Complete the inline feature.md:
-    checksum: c353692e6ade67e1d85266eb1fca1108ccf7558fe440d26f5fbf55f181cb9eb6
+    checksum: 3a80f5338b299cd844ec38d94ce0663f6ba13caaac5f14f625a5c72049c56721
     created: '2025-12-21T20:47:26.780738+00:00'
-    modified: '2025-12-21T20:47:26.780738+00:00'
+    modified: '2025-12-21T20:52:23.876403+00:00'
+    owner: nickarrow
+  The Starforged (NickArrow)/Progress/Do this new thing.md:
+    checksum: 2dabb42ed5c3e04eebba9654c871853d73f234aab0a7f6f6250f9d68780066c1
+    created: '2025-12-21T20:52:23.876432+00:00'
+    modified: '2025-12-21T20:52:23.876432+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/The Starforged (NickArrow).md:
     checksum: bce6896597ea492f714f210f7647c6c0533afe49aac551a8024b217abc6221b2
