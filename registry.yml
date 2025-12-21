@@ -43,26 +43,6 @@ files:
     created: '2025-12-17T17:36:32.462310+00:00'
     modified: '2025-12-20T19:31:17.262686+00:00'
     owner: nickarrow
-  SI test/Characters/Testguy.md:
-    checksum: 1ad19c73efa3a4b78482ad34f89ce5ab0a4d615b226b3efd87574ff5fec28a06
-    created: '2025-12-21T06:21:04.672243+00:00'
-    modified: '2025-12-21T06:21:04.672243+00:00'
-    owner: nickarrow
-  SI test/Journals/Session 0.md:
-    checksum: 06df3f66889257763daf1ec8d29ebe232b1ddfef3cb1ba3aa65b4e612ac449c3
-    created: '2025-12-21T06:15:26.670308+00:00'
-    modified: '2025-12-21T06:21:04.672290+00:00'
-    owner: nickarrow
-  SI test/SI test.md:
-    checksum: 55be768bcbb311dd919c27bcb25d35dd94e47362a12975687291cfefb34e6e53
-    created: '2025-12-21T06:15:26.670348+00:00'
-    modified: '2025-12-21T06:15:26.670348+00:00'
-    owner: nickarrow
-  SI test/Truths.md:
-    checksum: b830b8102fbb59f39ee38dafa0aa7313211707768429fe921ecb5d0e1459301c
-    created: '2025-12-21T06:15:26.670377+00:00'
-    modified: '2025-12-21T06:15:26.670377+00:00'
-    owner: nickarrow
   The Starforged (NickArrow)/Characters/Barille Black - Gear.md:
     checksum: c1ef0d8ac70b03abc10ebdcab35f8b028f121f805a311f5078c29375b7a38b7b
     created: '2025-12-17T20:16:20.629124+00:00'
