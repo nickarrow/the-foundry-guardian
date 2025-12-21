@@ -43,10 +43,15 @@ files:
     created: '2025-12-17T17:36:32.462310+00:00'
     modified: '2025-12-20T19:31:17.262686+00:00'
     owner: nickarrow
+  SI test/Characters/Testguy.md:
+    checksum: 1ad19c73efa3a4b78482ad34f89ce5ab0a4d615b226b3efd87574ff5fec28a06
+    created: '2025-12-21T06:21:04.672243+00:00'
+    modified: '2025-12-21T06:21:04.672243+00:00'
+    owner: nickarrow
   SI test/Journals/Session 0.md:
-    checksum: a94c1bdf23bceb9bb6be78dbabf4027776f3ecad3068eb319d20063bdcb90876
+    checksum: 06df3f66889257763daf1ec8d29ebe232b1ddfef3cb1ba3aa65b4e612ac449c3
     created: '2025-12-21T06:15:26.670308+00:00'
-    modified: '2025-12-21T06:15:26.670308+00:00'
+    modified: '2025-12-21T06:21:04.672290+00:00'
     owner: nickarrow
   SI test/SI test.md:
     checksum: 55be768bcbb311dd919c27bcb25d35dd94e47362a12975687291cfefb34e6e53
@@ -84,9 +89,9 @@ files:
     modified: '2025-12-17T20:28:29.565713+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Journals/Barille 01 - Beginnings.md:
-    checksum: d82b8e28ca99b04ef9dd1b1e3398c11a5fc786506cef3ef34c07a1235578d2f2
+    checksum: 158497a5527ee9a69ba70cc94d4a6d4c4743982aa8b22f2c170317da985ea63d
     created: '2025-12-17T20:18:04.220298+00:00'
-    modified: '2025-12-21T06:14:39.206375+00:00'
+    modified: '2025-12-21T06:21:04.672337+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Locations/Map - Devil's Chain.excalidraw.md:
     checksum: 8b76c0d503a57ebe68485915ff8bc0ae7ef40b27d18bc456b09c5ca836a22542
