@@ -49,9 +49,9 @@ files:
     modified: '2025-12-20T19:40:24.883324+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Characters/Barille Black.md:
-    checksum: 9fee51f911344a516677b29a9746e035d018bb8b43fbe4a2ea96e1677def96da
+    checksum: e60802ba83ff866be64cb67dd63273cd6add478f1937b5815fd3f8c278f6fc47
     created: '2025-12-17T19:59:34.705988+00:00'
-    modified: '2025-12-21T20:52:23.876315+00:00'
+    modified: '2025-12-22T20:46:27.313839+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Characters/attachments/barille black profile.png:
     checksum: 283585c27eb05c9acdcc972e3aa9c21afa873a62f1bf4710905332bd34f1a746
@@ -69,9 +69,9 @@ files:
     modified: '2025-12-17T20:28:29.565713+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Journals/Barille 01 - Beginnings.md:
-    checksum: 8cfcd0e5120147e1cfc850719375b77628f34fc1e8d4d1efda97c6004fd81786
+    checksum: b744d4c8bc88172d5e1204a4a308bc02a8db3cfc9d737cc0f0f65737b044318d
     created: '2025-12-17T20:18:04.220298+00:00'
-    modified: '2025-12-22T20:40:26.676749+00:00'
+    modified: '2025-12-22T20:46:27.313892+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Locations/Map - Devil's Chain.excalidraw.md:
     checksum: 8b76c0d503a57ebe68485915ff8bc0ae7ef40b27d18bc456b09c5ca836a22542
@@ -82,6 +82,11 @@ files:
     checksum: 0cb82d3d73b9d3eb1933d19d6673288680b55704e6e69e40455e19eab43f524b
     created: '2025-12-17T20:28:29.565848+00:00'
     modified: '2025-12-20T20:00:26.079933+00:00'
+    owner: nickarrow
+  The Starforged (NickArrow)/Locations/Planets/Reprise.md:
+    checksum: 5984039fcfac132b5228564e162210ca2c4d7cced776a913fc5b6b27c159c0d0
+    created: '2025-12-22T20:46:27.313923+00:00'
+    modified: '2025-12-22T20:46:27.313923+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Locations/Planets/attachments/acyrus.gif:
     checksum: d6be2595549d2582e7106893f43a5c27ce5c7d38dc7bbf1b9184c65c5b60d7a0
