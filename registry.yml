@@ -74,24 +74,24 @@ files:
     modified: '2025-12-17T20:28:29.565713+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Journals/Barille 01 - Beginnings.md:
-    checksum: e619ef72933b895831e19346a2d7ba01cc499df859cbf994d0084bbcf94f54a5
+    checksum: b0f7347a004cc1f465adf43cff905365df63c8dddc8366ace95d81bcadb13aa4
     created: '2025-12-17T20:18:04.220298+00:00'
-    modified: '2025-12-23T19:53:03.982168+00:00'
+    modified: '2025-12-23T20:00:26.015259+00:00'
+    owner: nickarrow
+  The Starforged (NickArrow)/Journals/Barille Inline Mechanics Test File.md:
+    checksum: 41e8c35c952d72ff8acbb274bbe9130f9407c059abb7789a976fe4f034ebc15e
+    created: '2025-12-23T20:00:26.015305+00:00'
+    modified: '2025-12-23T20:00:26.015305+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Locations/Map - Devil's Chain.excalidraw.md:
-    checksum: 8b76c0d503a57ebe68485915ff8bc0ae7ef40b27d18bc456b09c5ca836a22542
+    checksum: c5564a4339ce6090749458f10cadf14e0b4a0b8012529d0aeb4fa1eb0b45097e
     created: '2025-12-17T20:28:29.565815+00:00'
-    modified: '2025-12-17T20:28:29.565815+00:00'
+    modified: '2025-12-23T20:00:26.015344+00:00'
     owner: nickarrow
-  The Starforged (NickArrow)/Locations/Planets/Acyrus.md:
-    checksum: 0cb82d3d73b9d3eb1933d19d6673288680b55704e6e69e40455e19eab43f524b
+  The Starforged (NickArrow)/Locations/Planets/Ackriss-2.md:
+    checksum: d43c62775a1b9e2545e675da0767a8c53c40772b1aa35a15f066c415fa051355
     created: '2025-12-17T20:28:29.565848+00:00'
-    modified: '2025-12-20T20:00:26.079933+00:00'
-    owner: nickarrow
-  The Starforged (NickArrow)/Locations/Planets/Reprise.md:
-    checksum: 5984039fcfac132b5228564e162210ca2c4d7cced776a913fc5b6b27c159c0d0
-    created: '2025-12-22T20:46:27.313923+00:00'
-    modified: '2025-12-22T20:46:27.313923+00:00'
+    modified: '2025-12-23T20:00:26.015374+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Locations/Planets/attachments/acyrus.gif:
     checksum: d6be2595549d2582e7106893f43a5c27ce5c7d38dc7bbf1b9184c65c5b60d7a0
@@ -114,9 +114,9 @@ files:
     modified: '2025-12-17T20:28:29.566370+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Locations/Settlements/Reck.md:
-    checksum: efa2e69933c6c784d7e6c8ec57aaea8e6ad2eaaa5132232af111518614569e87
+    checksum: 141337548881838954d83fde3a633101938f7de6870333927b4f54e086ada671
     created: '2025-12-17T20:28:29.566400+00:00'
-    modified: '2025-12-17T20:28:29.566400+00:00'
+    modified: '2025-12-23T20:00:26.015409+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Progress/Barille/Establish a new noble house in the Circle of the Elder Stars.md:
     checksum: 67a6a31e66b5c6919867ba9a98d0a5b88657ea86c855e7bb5ac03015a7d5863a
@@ -132,11 +132,6 @@ files:
     checksum: dec3add9991123e124d488174565c46c94f82cfd79da705684a9b9a9fc8dcc7e
     created: '2025-12-17T20:28:29.566496+00:00'
     modified: '2025-12-20T20:00:26.080013+00:00'
-    owner: nickarrow
-  The Starforged (NickArrow)/Progress/Escape the barfight.md:
-    checksum: f47d2fae6d3596fa60f2ae13b44a9719ae3b32342a10a417bfe1c8a2d17277ed
-    created: '2025-12-22T21:26:31.817469+00:00'
-    modified: '2025-12-22T21:32:44.804260+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/The Starforged (NickArrow).md:
     checksum: bce6896597ea492f714f210f7647c6c0533afe49aac551a8024b217abc6221b2
