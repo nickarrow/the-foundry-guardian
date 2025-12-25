@@ -58,11 +58,6 @@ files:
     created: '2025-12-25T20:28:31.641102+00:00'
     modified: '2025-12-25T20:28:31.641102+00:00'
     owner: nickarrow
-  Pinnacle.md:
-    checksum: 8343237ca3382d993ae7a083c482dbc7ef069fd1a35f4e9682630313e89ee7a8
-    created: '2025-12-25T20:47:06.061388+00:00'
-    modified: '2025-12-25T21:04:09.007534+00:00'
-    owner: nickarrow
   The Starforged (NickArrow)/Characters/Barille Black - Gear.md:
     checksum: c1ef0d8ac70b03abc10ebdcab35f8b028f121f805a311f5078c29375b7a38b7b
     created: '2025-12-17T20:16:20.629124+00:00'
@@ -93,11 +88,6 @@ files:
     created: '2025-12-17T20:18:04.220298+00:00'
     modified: '2025-12-24T21:30:49.418224+00:00'
     owner: nickarrow
-  The Starforged (NickArrow)/Journals/Barille Inline Mechanics Test File.md:
-    checksum: 41e8c35c952d72ff8acbb274bbe9130f9407c059abb7789a976fe4f034ebc15e
-    created: '2025-12-23T20:00:26.015305+00:00'
-    modified: '2025-12-23T20:00:26.015305+00:00'
-    owner: nickarrow
   The Starforged (NickArrow)/Locations/Map - Devil's Chain.excalidraw.md:
     checksum: c050c188c464c6671bfe36ad762f9890714b9dbd9adeb85888e0294536385041
     created: '2025-12-17T20:28:29.565815+00:00'
@@ -127,6 +117,11 @@ files:
     checksum: 6f96d75e72161913895bd4ce3dfc4a950d6e21bd807b35090a378fa6c9b59183
     created: '2025-12-17T20:28:29.566370+00:00'
     modified: '2025-12-17T20:28:29.566370+00:00'
+    owner: nickarrow
+  The Starforged (NickArrow)/Locations/Settlements/Pinnacle.md:
+    checksum: 8343237ca3382d993ae7a083c482dbc7ef069fd1a35f4e9682630313e89ee7a8
+    created: '2025-12-25T20:47:06.061388+00:00'
+    modified: '2025-12-25T21:04:53.817588+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Locations/Settlements/Reck.md:
     checksum: 97f1ad28f342bcf94cab8abdd1f7e2dca73063c9e1537bf4d8f47cc55e0402b8
