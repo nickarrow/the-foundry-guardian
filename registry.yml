@@ -3,11 +3,6 @@
 # DO NOT EDIT MANUALLY - Managed automatically by the Foundry enforcement system.
 
 files:
-  '"The Starforged (NickArrow)/Lore/Epistolary/Epistolary Letters \342\200\224 The Starforged.md"':
-    checksum: ''
-    created: '2025-12-26T06:21:16.116471+00:00'
-    modified: '2025-12-26T06:31:18.141184+00:00'
-    owner: nickarrow
   .README.md:
     checksum: 460c3b229821efe14a65b7ec002685d5c45542be6fccd868d6abb250fef5bdab
     created: '2025-12-17T17:36:32.462310+00:00'
@@ -142,6 +137,11 @@ files:
     checksum: 82c99179c192799618e3e5d5f6a7297897d8310a05a2c18c2c144c34e77fb46e
     created: '2025-12-17T20:28:29.566400+00:00'
     modified: '2025-12-25T21:13:16.006518+00:00'
+    owner: nickarrow
+  The Starforged (NickArrow)/Lore/Epistolary/Epistolary Letters - The Starforged.md:
+    checksum: 6a2ad3fb1f6be82decf892d3b0a4e82358c0c4589c351bf840adb4312395be6d
+    created: '2025-12-26T06:21:16.116471+00:00'
+    modified: '2025-12-27T20:57:34.307656+00:00'
     owner: nickarrow
   The Starforged (NickArrow)/Lore/Epistolary/Message 01 - Barille Black.md:
     checksum: 8d4dbfcd7194768c81b4ce753b6d9dfb50a53e4cd9d4ac0cae2f31f03730b8be
