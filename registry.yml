@@ -178,11 +178,6 @@ files:
     created: '2025-12-17T17:41:15.770365+00:00'
     modified: '2025-12-31T04:59:31.082990+00:00'
     owner: nickarrow
-  Welcome 2.md:
-    checksum: ecd0dfb6b21143ff52cfe36f93636df57e5b21773c101491b86f10ce17556ca8
-    created: '2025-12-31T20:19:42.772708+00:00'
-    modified: '2025-12-31T20:19:42.772708+00:00'
-    owner: naretakis
   Welcome to The Foundry.md:
     checksum: f4a01441064c6bc46b4c1bcb951b2cc8629ef9260d81b06d228d0b8eb34c1224
     created: '2025-12-17T17:41:15.770246+00:00'
@@ -193,8 +188,3 @@ files:
     created: '2025-12-31T07:58:28.052606+00:00'
     modified: '2025-12-31T07:58:28.052606+00:00'
     owner: solarblaster
-  test?.md:
-    checksum: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-    created: '2025-12-31T20:05:53.730959+00:00'
-    modified: '2025-12-31T20:05:53.730959+00:00'
-    owner: naretakis
