@@ -4,14 +4,6 @@
 # 'folders' section: structural ownership (who can move/rename within folder trees)
 # DO NOT EDIT MANUALLY - Managed automatically by the Ironverse enforcement system.
 
-folders:
-  Epistolary Framework:
-    created: '2025-12-25T20:28:31.641056+00:00'
-    structural_owner: nickarrow
-  The Starforged (NickArrow):
-    created: '2025-12-17T19:59:34.705988+00:00'
-    structural_owner: nickarrow
-
 files:
   .README.md:
     checksum: 460c3b229821efe14a65b7ec002685d5c45542be6fccd868d6abb250fef5bdab
@@ -90,9 +82,9 @@ files:
     owner: nickarrow
   The Starforged (NickArrow)/Characters/NPCs/Epathus-Barabas Serrato.md:
     checksum: 6707d1d6501bb7309370189d2b69c61d515170286ef132003c98d35f9f837873
-    created: '2026-01-09T03:17:26.315506+00:00'
-    modified: '2026-01-09T03:17:26.315506+00:00'
-    owner: solarblaster
+    created: '2026-01-09T03:25:57.169336+00:00'
+    modified: '2026-01-09T03:25:57.169336+00:00'
+    owner: nickarrow
   The Starforged (NickArrow)/Characters/NPCs/Rowena Jensen.md:
     checksum: 1e475e4fa52ce606184395f031923c4f17fe524cd13a2f8da1211e3ca8993adf
     created: '2026-01-02T20:55:42.070156+00:00'
@@ -205,9 +197,9 @@ files:
     owner: nickarrow
   The Starforged (NickArrow)/Progress/Find where he stands with Epathus.md:
     checksum: bf7b866f82d2c51eb54b1106b0bfbc60c175ccc1ee33e28c3e4c948dd2a2fd28
-    created: '2026-01-09T03:17:26.315603+00:00'
-    modified: '2026-01-09T03:17:26.315603+00:00'
-    owner: solarblaster
+    created: '2026-01-09T03:25:57.169443+00:00'
+    modified: '2026-01-09T03:25:57.169443+00:00'
+    owner: nickarrow
   The Starforged (NickArrow)/The Starforged (NickArrow).md:
     checksum: 536855f9155dab5b7bb99b41d88145b30917849e2dc57e4f0fba81f352895057
     created: '2025-12-17T19:59:34.706075+00:00'
@@ -233,3 +225,10 @@ files:
     created: '2025-12-17T17:41:15.770246+00:00'
     modified: '2026-01-01T21:39:22.704442+00:00'
     owner: nickarrow
+folders:
+  Epistolary Framework:
+    created: '2025-12-25T20:28:31.641056+00:00'
+    structural_owner: nickarrow
+  The Starforged (NickArrow):
+    created: '2025-12-17T19:59:34.705988+00:00'
+    structural_owner: nickarrow
