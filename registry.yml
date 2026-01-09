@@ -91,9 +91,9 @@ files:
     modified: '2026-01-09T03:44:17.265154+00:00'
     owner: nickarrow
   The Starforged/Characters/Tybalt-Yhen Serrato.md:
-    checksum: 442a0e230ac3bd3630c98ee0503cf41cbb4996c610bbbdb4cccb099937ea1efa
+    checksum: 2cf3b55e5b913f52a0d50520d36edb7e333b27875e6b8b03998e90a42f41d3ef
     created: '2026-01-06T10:42:32.726002+00:00'
-    modified: '2026-01-09T03:44:17.265242+00:00'
+    modified: '2026-01-09T04:50:26.437759+00:00'
     owner: solarblaster
   The Starforged/Factions/Ascendancy of the Awakened Worlds.md:
     checksum: 21a1902dfa87ad2364584200ee7bc46b0d4379b127d1a9a82fe66e0665daa7f6
@@ -121,9 +121,9 @@ files:
     modified: '2026-01-09T04:49:26.626361+00:00'
     owner: nickarrow
   The Starforged/Journals/Tybalt-Yhen Serrato/Tybalt 01-The Road of Stars.md:
-    checksum: 68308206a5ba3bd5ff6ad7d4c5c28d7e855cc8596144b68b2ff01b86bb63fa1c
+    checksum: 0287be3d543ee844c1355e11876599bb4aa5dcc14d443b45771a5cd8aa16927b
     created: '2026-01-06T10:42:32.726042+00:00'
-    modified: '2026-01-09T04:06:59.932824+00:00'
+    modified: '2026-01-09T04:50:26.437824+00:00'
     owner: solarblaster
   The Starforged/Locations/Map - Devil's Chain.excalidraw.md:
     checksum: 1867ab9bd24efec6f0f1ac1cfde4b803183fb9365501cbe5f71645a9318c5cb2
@@ -205,6 +205,16 @@ files:
     created: '2025-12-17T19:59:34.706075+00:00'
     modified: '2026-01-09T04:48:38.874171+00:00'
     owner: nickarrow
+  The Starforged/The Starforged/Progress/Tybalt-Yhen Serrato/Traveling to Devil's Chain.md:
+    checksum: 8dfee9cb1a8f0bf360d3a281a3bfe7a1022c5ee7401d85f212dc095b93275783
+    created: '2026-01-09T04:50:26.460417+00:00'
+    modified: '2026-01-09T04:50:26.460417+00:00'
+    owner: solarblaster
+  The Starforged/The Starforged/The Starforged/Progress/Tybalt-Yhen Serrato/Command-Duel with Epathus.md:
+    checksum: db38ceb7ce127ec9c82dd1dba0ca0d29c1203aadcc2abbc32830e02d8ae5f627
+    created: '2026-01-09T04:50:26.460552+00:00'
+    modified: '2026-01-09T04:50:26.460552+00:00'
+    owner: solarblaster
   The Starforged/Truths.md:
     checksum: f7a74ccce0b955ccb36b258c578806f7eb571d1dcbec8e9428e0171bb0c03711
     created: '2025-12-17T19:59:34.706109+00:00'
