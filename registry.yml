@@ -116,9 +116,14 @@ files:
     modified: '2026-01-09T06:41:21.513737+00:00'
     owner: nickarrow
   The Starforged/Journals/Barille/Barille 02 - Reck.md:
-    checksum: 69f23dde751bc4dbe03b3bb7f000f1869300cf89ce3cb0a34e4b0405af65c712
+    checksum: 22e914ff97a9c9492581c05aad12f88502c643fac5adb9cd3f81ca402d340d91
     created: '2025-12-27T19:44:10.527140+00:00'
-    modified: '2026-01-09T20:15:16.638447+00:00'
+    modified: '2026-01-11T21:31:10.953056+00:00'
+    owner: nickarrow
+  The Starforged/Journals/Barille/Barille inline test file.md:
+    checksum: 3aca37dc4c6fa3a165732eb09a01a82ac8924308ef4367eafb9f90c9481ed7e6
+    created: '2026-01-11T21:31:10.953217+00:00'
+    modified: '2026-01-11T21:31:10.953217+00:00'
     owner: nickarrow
   The Starforged/Journals/Tybalt-Yhen Serrato/Tybalt 00- Impatience Bites.md:
     checksum: 300a354d8bcf85161c8d384b9e369392450dca6c26e0f432a8b3aa9cdc6a81b4
@@ -214,6 +219,11 @@ files:
     checksum: c435892f275dceec9be5faf2f28e06c05430e00dcb56dc5a14627d7827727f48
     created: '2025-12-26T06:31:18.141226+00:00'
     modified: '2026-01-09T03:44:17.267636+00:00'
+    owner: nickarrow
+  The Starforged/Progress/Inline test combat.md:
+    checksum: 1d15e7cae2a11d7f5175d1b974e57f440712c553cd00cc02684c7f9182b79d26
+    created: '2026-01-11T21:31:10.953300+00:00'
+    modified: '2026-01-11T21:31:10.953300+00:00'
     owner: nickarrow
   The Starforged/Progress/Tybalt-Yhen Serrato/Command-Duel with Epathus.md:
     checksum: 1cc839fee1c3e13a1f970d1b9ebafeb03f3a316d270911e0339e2750498bb89d
