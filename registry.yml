@@ -30,11 +30,6 @@ files:
     created: '2025-12-25T20:28:31.641102+00:00'
     modified: '2025-12-26T06:40:28.892068+00:00'
     owner: nickarrow
-  Excalidraw/Drawing 2026-01-13 17.21.41.excalidraw.md:
-    checksum: bd2f6335df6b16326e51adf6a7bbe1d163083445c6b0f02acea98edb2c9bd40d
-    created: '2026-01-13T16:22:22.963648+00:00'
-    modified: '2026-01-13T16:22:22.963648+00:00'
-    owner: nepturnal
   Getting Started.md:
     checksum: 9fe36e5826b4bfe79515bbc292cd5840a1cccd291eb83fb85272bc52606ac405
     created: '2025-12-17T17:41:15.770317+00:00'
@@ -359,9 +354,6 @@ folders:
   Epistolary Framework:
     created: '2025-12-25T20:28:31.641056+00:00'
     structural_owner: nickarrow
-  Excalidraw:
-    created: '2026-01-13T16:22:22.963595+00:00'
-    structural_owner: nepturnal
   The Starforged:
     created: '2026-01-09T03:44:17.263114+00:00'
     structural_owner: nickarrow
